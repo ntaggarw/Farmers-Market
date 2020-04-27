@@ -82,7 +82,20 @@ li a:hover {
   padding-top: 20px;
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("images/walking-through-market.jpg");
-  background-position: center;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sectionThree {
+  margin: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("images/veggies.jpg");
+  background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
