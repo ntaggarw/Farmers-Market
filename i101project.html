@@ -7,7 +7,18 @@
     <link rel="stylesheet" href="normalize.css" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript">
+      function revealLocalInfo() {
+        var para = document.getElementById("desc");
+        var img = document.getElementById("pfp");
+        //if(para.innerHTML.equals("")) {
+          para.innerHTML="This is me. Hello!";
+          img.src="images/IMG_0746.jpeg";
+        //} else {
+        //  para.innerHTML="";
+        //  img.src="";
+        //}
 
+      }
     </script>
     <style media="screen">
       th, td {
@@ -121,7 +132,13 @@
 
       <a href="solution.html"><button type="button" name="button">See the Solution</button></a>
       <a href="research.html"><button type="button" name="button">See the Research</button></a>
+      <a href="http://pages.iu.edu/~ntaggarw/Midterm/home.html"><button type="button" name="button">See the Developer</button></a>
       <br>
+      <button type="button" name="button" onclick="revealLocalInfo()">About Me</button>
+      <div style="display: inline"><br>
+        <img id="pfp" src="" />
+        <p id="desc"></p>
+      </div>
     </div>
     </div>
     <!--Copyright and Credits-->
